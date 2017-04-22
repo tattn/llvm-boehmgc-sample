@@ -18,8 +18,8 @@ main(int argc, char* argv[])
 {
     GC_init();
     int i = 0;
-    for (i = 0; i < 10000000; i++) {
-        void* p = my_malloc(32);
+    for (i = 0; i < 100; i++) {
+        void* p = my_malloc(128);
         GC_register_finalizer(p, finalizer, NULL, NULL, NULL);
     }
 
