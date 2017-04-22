@@ -1,7 +1,7 @@
-llvm-boehmgc-sample
+Example to use Boehm GC on LLVM IR.  
 ====
 
-Example to use Boehm GC on LLVM IR.
+see: [boehmgc.ll](https://github.com/tattn/llvm-boehmgc-sample/blob/master/boehmgc.ll)
 
 ```sh
 # build.sh
